@@ -2,10 +2,6 @@ package minesweeper;
 
 public class Minesweeper {
 
-    public static void main(String[] args) {
-
-    }
-
     private final int row = 5;
     private final int column = 5;
 
