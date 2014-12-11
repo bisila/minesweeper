@@ -1,6 +1,6 @@
-package minesweeper;
+package swing;
 
-public class Status {
+public class StatusDialog {
     private int status = 1;
     private String[] stats = {"covered", "flag", "questionMark", "uncovered"};
     public void leftClick(){
