@@ -50,4 +50,10 @@ public class Cell{
             amount += neighbour.hasMine() ? 1 : 0;
         return amount;
     }
+
+    public void setHasMine(boolean hasMine) {
+        this.hasMine = hasMine;
+    }
+    
+    
 }
